@@ -1,0 +1,109 @@
+body { background-color: black; font-family: arial; margin: 0px; }
+
+
+    
+/* HEADER */
+    .top { background-color: #E3F2C1;
+      width: 100%; height: 200px; font-family:poppins; }
+
+      .top h1 { background-color:#AAC8A7;
+        padding: 10px; letter-spacing: 20px;
+        display: flex;
+        justify-content: center;
+        text-transform: uppercase; }
+
+        .top h2 { 
+          padding: 2px; letter-spacing: 4px; font-size: 10px;
+          text-transform: lowercase; text-align:center; text-shadow: 2px 2px 8px rgba(139, 152, 116, 0.8);
+        }
+
+/* NAVEGACION */
+
+
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  list-style-type: none;
+
+}
+
+nav li { 
+  margin: 10px;
+  padding: 10px;  }
+
+nav a { 
+text-decoration:none;
+color: black; 
+text-transform: uppercase; font-weight: bold; font-size: 10px;}
+
+/* FOOTER */
+        .bottom { background-color: #E3F2C1;
+          width: 100%; height: auto; position: absolute; }
+
+
+/* NOVEDAD */
+
+  .nov { background-color:white; 
+    width: 60%; padding: 20px; 
+    margin-left: 40px; margin-top: 60px;
+    border-radius: 20px;}
+  .nov iframe  { padding: 10px;
+   margin-left:100px; 
+   box-shadow:1px 1px 8px rgba(139, 152, 116, 0.8); }
+  .nov h2 { 
+    position:absolute; color: white;
+    top:232px; right:1000px; padding: 10px;
+    font-size: 15px; width: 200px;
+    text-align: center; letter-spacing: 5px;
+    font-style: italic;
+    background-color:rgba(139, 152, 116, 0.8);
+    backdrop-filter: blur(3px);
+    border:0px solid;border-top-right-radius:10px;
+    border-top-left-radius:10px; }
+
+  .nov h3 { font-size: 25px; color: #AAC8A7; }
+  .nov p { background-color:#F6FFDE;
+    font-size: 13px; width: auto; padding: 10px; }
+  .nov b { text-transform:uppercase; color: #AAC8A7; }
+
+
+/* PELICULAS */
+  .pelicont {  
+    background-color: white;
+    width: 60%; height: 400px;padding: 20px; 
+    margin-left: 40px; margin-top: 60px;
+     border-radius: 20px;overflow:auto; }
+ }
+
+     .pelibox { 
+    justify-content: space-between;width: 200px; display:flex; }
+     .pelibox img { width: 200px; }
+     .pelibox b { color: #AAC8A7;
+    font-size: 20px;}
+
+
+/* TABLA */
+  .tg  {border-collapse:collapse; margin-left:400px;margin-top: 50px; margin-bottom: 100px; }
+      .tg td, th{border-color:black;
+        border-style:solid;border-width:1px;
+        font-family:Arial, sans-serif;font-size:14px;
+        overflow:hidden;padding:10px 5px;
+        text-align: center; vertical-align: center;}
+
+        .tg .vier { background-color:#E3F2C1; }
+        .tg .sab { background-color:#C9DBB2; }
+        .tg .dom { background-color:#AAC8A7; }
+        .tg b  { font-size: 20px; }
+        .tg .hor { font-style: italic; color: white; }
+
+
+/* FORMULARIO */
+
+.form { background-color: white; width: 60%; 
+border: 1px; border-style:solid; border-color: darkseagreen; border-radius: 10px;
+padding: 20px; margin:20px; float:center; }
+
+.cont { 
+padding: 10px; margin:50px; }
